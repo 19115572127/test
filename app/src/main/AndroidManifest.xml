@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ydy.taole">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".search.SearchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activists.CaptainActivity"></activity>
+        <activity android:name=".bottomtabar.BottomTabbarActivity"></activity>
+        <activity android:name=".VolleyActivity" />
+        <activity android:name=".activists.ChouTiActivity" />
+        <activity android:name=".activists.VideoActivity" />
+        <activity android:name=".activists.RegisterActivity" />
+        <activity android:name=".activists.PersonalActivity"></activity>
+        <activity android:name=".activists.LoginActivity" />
+        <activity android:name=".fragments.MainActivity2" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".activists.Show_UserActivity" />
+        <activity android:name=".activists.SystemUserActivity" />
+        <activity android:name=".activists.UpdatePassActivity" />
+        <activity android:name=".QrCodeActivity" />
+    </application>
+
+</manifest>

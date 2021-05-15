@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">淘乐</string>
+    <string name="select">搜索</string>
+    <string name="dologin">登陆/注册</string>
+    <string name="selectt">查询</string>
+    <string name="userName">账号</string>
+    <string name="userPassword">密码</string>
+    <string name="sex">性别</string>
+    <string name="tel">手机号</string>
+    <string name="name">昵称</string>
+    <string name="login">登录</string>
+    <string name="register"><u>注册</u></string>
+    <string name="title">标题</string>
+    <string name="conten">内容</string>
+    <string name="image">图片</string>
+    <string name="userdata">个人信息</string>
+    <string name="fankui">反馈建议</string>
+    <string name="xiugai">修改密码</string>
+    <string name="tuichu">退出登录</string>
+    <string name="nickName">昵称</string>
+    <string name="ddlb">订单列表</string>
+    <string name="RememberPassword">记住密码</string>
+    <drawable name="color1">#000</drawable>
+    <drawable name="color2">#fff</drawable>
+    <string name="system">信息管理系统</string>
+    <string name="add">添加信息</string>
+    <string name="drop">删除信息</string>
+    <string name="show_user">显示信息</string>
+    <string name="update_pwd">修改信息</string>
+    <string name="account">账号</string>
+    <string name="password">密码</string>
+    <string name="phone">手机号</string>
+    <string name="confirmpassword">确认密码</string>
+    <string name="captcha">验证码</string>
+    <string name="qrcode1">生成二维码</string>
+    <string name="qrcode2">生成带Logo的二维码</string>
+</resources>
